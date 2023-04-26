@@ -855,7 +855,7 @@ li {
   margin-left: 8px;
 }
 
-input {
+.footer-input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -864,6 +864,10 @@ input {
   background-color: var(--brand-color-heder-footer);
   color: rgba(255, 255, 255, 0.3);
   padding-left: 16px;
+}
+
+.footer-input:is(:hover, :focus) {
+  border-color: var(--brand-color-active);
 }
 
 .footer-button-box {
@@ -876,6 +880,7 @@ input {
   border-radius: 4px;
   gap: 24px;
   padding-left: 42px;
+  cursor: pointer;
 }
 
 .footer-form-box {
