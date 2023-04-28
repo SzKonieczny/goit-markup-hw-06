@@ -526,8 +526,8 @@
         <form class="form-box">
           <h3 class="fill-the-form">Zostaw swoje dane w formularzu poniżej</h3>
           <div class="box-name">
-            <label class="name-label" for="name">Imię</label>
-            <label class="input-name">
+            <label class="labels" for="name">Imię</label>
+            <label class="inputs">
               <svg width="18" height="18">
                 <use
                   href="./images/icons/icons.svg#icon-person-black-18dp-1"
@@ -536,10 +536,10 @@
               <input type="text" name="name" id="name" required />
             </label>
           </div>
-          <div>
-            <label class="phone-label" for="phone">Telefon</label>
-            <label class="input-phone">
-              <svg width="13" height="13">
+          <div class="box-phone">
+            <label class="labels" for="phone">Telefon</label>
+            <label class="inputs">
+              <svg width="18" height="18">
                 <use
                   href="./images/icons/icons.svg#icon-phone-black-18dp-1"
                 ></use>
@@ -549,6 +549,28 @@
                 name="phone_number"
                 id="phone_number"
                 required
+              />
+            </label>
+          </div>
+          <div class="box-email">
+            <label class="labels" for="phone">Email</label>
+            <label class="inputs">
+              <svg width="18" height="18">
+                <use
+                  href="./images/icons/icons.svg#icon-email-black-18dp-1"
+                ></use>
+              </svg>
+              <input type="email" name="email" id="email" required />
+            </label>
+          </div>
+          <div class="box-text">
+            <label class="labels" for="phone">Komentarz</label>
+            <label class="input-text">
+              <input
+                type="text"
+                name="text"
+                id="text"
+                placeholder="Wprowadz text"
               />
             </label>
           </div>
