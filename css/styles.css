@@ -961,7 +961,7 @@ li {
   fill: #2196f3;
 } */
 
-.inputs:is(:hover, :focus) {
+.inputs:is(:hover, :focus-within) {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 1px solid #2196f3;
   fill: #2196f3;
@@ -987,7 +987,7 @@ li {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-text:is(:hover, :focus) {
+.input-text:is(:hover, :focus-within) {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 1px solid #2196f3;
   fill: #2196f3;
@@ -1082,7 +1082,7 @@ input {
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
+.checkmark::after {
   content: "";
   position: absolute;
   display: none;
