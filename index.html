@@ -533,7 +533,13 @@
                   href="./images/icons/icons.svg#icon-person-black-18dp-1"
                 ></use>
               </svg>
-              <input type="text" name="name" id="name" required />
+              <input
+                class="imput-width"
+                type="text"
+                name="name"
+                id="name"
+                required
+              />
             </label>
           </div>
           <div class="box-phone">
@@ -545,6 +551,7 @@
                 ></use>
               </svg>
               <input
+                class="imput-width"
                 type="tel"
                 name="phone_number"
                 id="phone_number"
@@ -560,18 +567,34 @@
                   href="./images/icons/icons.svg#icon-email-black-18dp-1"
                 ></use>
               </svg>
-              <input type="email" name="email" id="email" required />
+              <input
+                class="imput-width"
+                type="email"
+                name="email"
+                id="email"
+                required
+              />
             </label>
           </div>
           <div class="box-text">
-            <label class="labels" for="phone">Komentarz</label>
+            <!-- <label for="phone">Komentarz</label>
             <label class="input-text">
               <input
+                class="input-text-width"
                 type="text"
                 name="text"
                 id="text"
                 placeholder="Wprowadz text"
               />
+            </label> -->
+            <label>
+              <p class="labels">Komentarz</p>
+              <textarea
+                class="input-text"
+                name="comment"
+                rows="5"
+                placeholder="Wprowadz test"
+              ></textarea>
             </label>
           </div>
           <label class="checkbox-container">

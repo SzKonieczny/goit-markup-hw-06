@@ -954,6 +954,7 @@ li {
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /* margin-left: 12px; */
 }
 
 /* .inputs:focus-within {
@@ -993,6 +994,12 @@ li {
   fill: #2196f3;
 }
 
+.input-text-width {
+  word-wrap: break-word;
+  width: 416px;
+  border: 1px solid red;
+}
+
 textarea {
   resize: both;
 }
@@ -1009,6 +1016,11 @@ textarea {
 }
 
 input {
+  border: none;
+  outline: none;
+}
+
+textarea {
   border: none;
   outline: none;
 }
@@ -1136,4 +1148,13 @@ input {
   color: var(--brand-color-img-background);
   border-color: var(--brand-color-active);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.imput-width {
+  width: 394px;
+  margin-left: 12px;
+}
+
+textarea {
+  resize: none;
 }
